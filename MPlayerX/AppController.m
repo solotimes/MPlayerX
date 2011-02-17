@@ -71,7 +71,7 @@ static BOOL init_ed = NO;
 {
 	[[NSUserDefaults standardUserDefaults] 
 	 registerDefaults:[NSDictionary dictionaryWithObjectsAndKeys:
-					   @"http://mplayerx.googlecode.com/svn/trunk/update/appcast.xml", @"SUFeedURL",
+					   /*@"http://mplayerx.googlecode.com/svn/trunk/update/appcast.xml", @"SUFeedURL",*/
 					   [NSNumber numberWithBool:NO], kUDKeyLogMode,
 					   kSnapshotSaveDefaultPath, kUDKeySnapshotSavePath,
 					   nil]];
